@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:1:1-12:12
+ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:1:1-13:12
 	package
 		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:2:5-32
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/Andro
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:4:5-10:19
+ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:4:5-11:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
@@ -25,15 +25,15 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ariefteb
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:5:9-41
+		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:7:9-41
 	android:supportsRtl
-		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:8:9-35
 	android:allowBackup
-		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:4:18-44
+		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:5:9-35
 	android:icon
 		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:6:9-43
 	android:theme
-		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:8:9-40
+		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:9:9-40
 uses-sdk
 INJECTED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
