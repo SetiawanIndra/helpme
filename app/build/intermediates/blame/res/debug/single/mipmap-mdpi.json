@@ -2,5 +2,9 @@
     {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/res/merged/debug/mipmap-mdpi/helpme_icon.png",
+        "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/res/mipmap-mdpi/helpme_icon.png"
     }
 ]
