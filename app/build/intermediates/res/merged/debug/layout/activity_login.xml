@@ -38,17 +38,21 @@
                 android:textSize="@dimen/text_size_normal"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingBottom="@dimen/activity_horizontal_margin"
-                android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textColor="@color/colorAccent"
+                android:backgroundTint="@color/colorAccent"/>
 
             <EditText
                 android:id="@+id/et_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:inputType="textPassword"
                 android:hint="@string/hint_password"
                 android:textSize="@dimen/text_size_normal"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingBottom="@dimen/activity_horizontal_margin"/>
+                android:paddingBottom="@dimen/activity_horizontal_margin"
+                android:textColor="@color/colorAccent"
+                android:backgroundTint="@color/colorAccent"/>
 
             <LinearLayout
                 android:layout_width="match_parent"

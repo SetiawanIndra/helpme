@@ -152,6 +152,10 @@
         "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_mode_bar.xml"
     },
     {
+        "merged": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/res/merged/debug/layout/activity_my_account.xml",
+        "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/res/layout/activity_my_account.xml"
+    },
+    {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_popup_menu_header_item_layout.xml"
     },

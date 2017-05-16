@@ -29,9 +29,9 @@ public class SessionManager  {
 
     public static final String IS_LOGIN = "isLoggedIn";
 
-    public static final String KEY_NAME = "name";
+    public static final String KEY_NAME = "name_user";
 
-    public static final String KEY_USERNAME = "username";
+    public static final String KEY_USERNAME = "username_user";
 
 
     public SessionManager(Context mContext) {
@@ -62,8 +62,8 @@ public class SessionManager  {
     public HashMap<String,String> getUserDetails(){
         HashMap<String,String> mUser = new HashMap<String, String>();
 
-        mUser.put(KEY_NAME, null);
-        mUser.put(KEY_USERNAME, null);
+        mUser.put(KEY_NAME, mSharedPref.getString(KEY_NAME, null));
+        mUser.put(KEY_USERNAME, mSharedPref.getString(KEY_USERNAME, null));
 
         return mUser;
     }

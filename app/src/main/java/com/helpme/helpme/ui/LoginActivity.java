@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                url = "http://helpme-test.pe.hu/login/login.php?" + "username=" +
+                url = "http://helpme-test.pe.hu/login.php?" + "username=" +
                         etUsename.getText().toString() + "&password=" +
                         etPassword.getText().toString();
 
@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity {
         protected void onPreExecute() {
             super.onPreExecute();
 
-            mProgressDialog = new ProgressDialog(getApplicationContext());
+            mProgressDialog = new ProgressDialog(LoginActivity.this);
             mProgressDialog.setMessage("Please Wait...");
             mProgressDialog.setIndeterminate(false);
             mProgressDialog.setCancelable(true);
@@ -106,8 +106,8 @@ public class LoginActivity extends AppCompatActivity {
                     for (int i = 0; i < mJSONArray.length(); i++){
                         JSONObject mJSONObject2 = mJSONArray.getJSONObject(i);
 
-                        String nama = mJSONObject2.getString("nama").trim();
-                        String username = mJSONObject2.getString("username").trim();
+                        String nama = mJSONObject2.getString("name_user").trim();
+                        String username = mJSONObject2.getString("username_user").trim();
                         mSessionManager.createLoginSession(nama, username);
                         Log.e("OK", "Ambil Data");
                     }
