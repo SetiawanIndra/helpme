@@ -44,6 +44,10 @@
         "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/res/merged/debug/drawable/button.xml",
+        "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/res/drawable/button.xml"
+    },
+    {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_edit_text_material.xml"
     },

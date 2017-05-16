@@ -30,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.helpme.helpme.ui.LoginActivity" />
+        <activity android:name="com.helpme.helpme.ui.RegisterActivity" />
     </application>
 
 </manifest>

@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">HelpMe</string>
-    <string name="btn_login">LOGIN</string>
-    <string name="btn_register">REGISTER</string>
+
+    <!--BUTTON-->
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+
+    <!--HINT-->
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+
 </resources>

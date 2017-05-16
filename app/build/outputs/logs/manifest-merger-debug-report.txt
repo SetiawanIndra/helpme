@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/Andro
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml
 		INJECTED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:5:5-23:19
+ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
@@ -55,9 +55,13 @@ ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/Andro
 	android:name
 		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.helpme.helpme.ui.LoginActivity
-ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:22:9-63
+ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:22:9-54
 	android:name
 		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:22:19-51
+activity#com.helpme.helpme.ui.RegisterActivity
+ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:23:9-66
+	android:name
+		ADDED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml:23:19-54
 uses-sdk
 INJECTED from /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
