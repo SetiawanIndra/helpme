@@ -4,6 +4,10 @@
         "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/res/merged/debug/mipmap-xhdpi/helpme_logo.png",
+        "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/res/mipmap-xhdpi/helpme_logo.png"
+    },
+    {
         "merged": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/build/intermediates/res/merged/debug/mipmap-xhdpi/helpme_icon.png",
         "source": "/home/arieftebe/Documents/Portfolio/Android/HelpMe/app/src/main/res/mipmap-xhdpi/helpme_icon.png"
     }

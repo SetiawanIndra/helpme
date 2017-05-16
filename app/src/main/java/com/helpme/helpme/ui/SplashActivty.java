@@ -15,10 +15,9 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 public class SplashActivty extends AppCompatActivity {
 
-    private static final int timeSplash = 3 * 1000; // 3 detik
+    private static final int TIME_SPLASH = 3 * 1000; // 3 detik
 
     ImageView ivHmLogo;
-    ProgressBar pbBarSplash;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +28,7 @@ public class SplashActivty extends AppCompatActivity {
         setContentView(R.layout.activity_splash_activty);
 
         ivHmLogo = (ImageView) findViewById(R.id.iv_hmLogo);
-        pbBarSplash = (ProgressBar) findViewById(R.id.pb_barSplash);
 
-        pbBarSplash.setAlpha(timeSplash);
 
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -40,6 +37,6 @@ public class SplashActivty extends AppCompatActivity {
 //                startActivities(new Intent(getApplicationContext(), LoginActivity.class));
                 finish();
             }
-        },timeSplash);
+        },TIME_SPLASH);
     }
 }

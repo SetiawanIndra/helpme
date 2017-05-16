@@ -19,13 +19,18 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:scaleType="centerCrop"
-        android:src="@mipmap/helpme_icon"
+        android:src="@mipmap/helpme_logo"
         />
 
-    <ProgressBar
-        android:id="@+id/pb_barSplash"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/text_size_splash"
+        android:layout_below="@id/iv_hmLogo"
+        android:layout_centerHorizontal="true"/>
+
+
 </RelativeLayout>
