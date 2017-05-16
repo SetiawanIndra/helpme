@@ -69,16 +69,16 @@ public class JSONParser {
         return mJSONObject;
     }
 
-    public JSONObject makeHttpRequest(String url, String method, List<NameValuePair> params){
-
-        try{
-
-            if (method == "POST"){
-
-            }
-        }
-
-    }
+//    public JSONObject makeHttpRequest(String url, String method, List<NameValuePair> params){
+//
+//        try{
+//
+//            if (method == "POST"){
+//
+//            }
+//        }
+//
+//    }
 
 
 
