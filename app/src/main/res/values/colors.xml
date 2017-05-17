@@ -6,4 +6,6 @@
     <color name="colorTextGray">#616161</color>
     <color name="colorTextWhiteGray">#eeeeee</color>
     <color name="colorTextWhite">#FFFFFF</color>
+
+    <color name="coloTransp">#00ffffff</color>
 </resources>

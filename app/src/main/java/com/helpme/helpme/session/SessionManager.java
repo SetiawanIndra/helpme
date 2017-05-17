@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 
-import com.helpme.helpme.ui.LoginActivity;
+import com.helpme.helpme.ui.activity.LoginActivity;
 
 import java.util.HashMap;
 
@@ -32,6 +32,8 @@ public class SessionManager  {
     public static final String KEY_NAME = "name_user";
 
     public static final String KEY_USERNAME = "username_user";
+
+    public static final String KEY_ = "username_user";
 
 
     public SessionManager(Context mContext) {

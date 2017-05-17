@@ -133,5 +133,4 @@ public class JSONParser {
 
         return mJSONObject;
     }
-
 }

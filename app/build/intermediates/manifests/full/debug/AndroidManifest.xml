@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.helpme.helpme.ui.SplashActivty"
+            android:name="com.helpme.helpme.ui.activity.SplashActivty"
             android:label="@string/app_name"
             android:noHistory="true"
             android:screenOrientation="portrait" >
@@ -32,9 +32,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.helpme.helpme.ui.LoginActivity" />
-        <activity android:name="com.helpme.helpme.ui.RegisterActivity" />
-        <activity android:name="com.helpme.helpme.ui.MyAccountActivity" />
+        <activity android:name="com.helpme.helpme.ui.activity.LoginActivity" />
+        <activity android:name="com.helpme.helpme.ui.activity.RegisterActivity" />
+        <activity android:name="com.helpme.helpme.ui.activity.MyAccountActivity" />
+        <activity android:name="com.helpme.helpme.ui.activity.MenuActivity" />
     </application>
 
 </manifest>
